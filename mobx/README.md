@@ -1,5 +1,7 @@
-To instal dependence <br/>
+## To instal dependence <br/>
 yarn add @babel/plugin-proposal-decorators mobx mobx-react mobx-react-devtools --dev<br />
+
+npm install babel-preset-es2015 and npm install babel-preset-react<br />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
