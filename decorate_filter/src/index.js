@@ -7,53 +7,6 @@ import * as serviceWorker from './serviceWorker';
 
 configure({ enforceActions: 'observed' });
 
-// const nickName = observable({
-//     firstname: 'tata',
-//     age: 21,
-
-//     get nickName() {
-//         console.log('Generate nick');
-//         return `${this.firstname}  ${this.age}`
-//     },
-
-//     increment() { this.age++ },
-//     decrement() { this.age-- }
-// }, {
-//     increment: action('Plus one'),
-//     decrement: action('Minus one')
-// }, {
-//     name: 'nickNameObservableObject'
-// });
-
-// const todos = observable([
-//     { text: 'Learn React' },
-//     { text: 'Learn Mobx' }
-// ]);
-
-// @observer class Counter extends Component {
-
-//     handleIncrement = () => { this.props.store.increment() }
-//     handleDecrement = () => { this.props.store.decrement() }
-
-//     render() {
-//         return (
-//             <div className="App">
-//                 <renderTable />
-//                 <hr />
-//                 <h1>{this.props.store.nickName}</h1>
-//                 <h3>{this.props.store.age}</h3>
-//                 <button onClick={this.handleDecrement}>-1</button>
-//                 <button onClick={this.handleIncrement}>+1</button>
-//                 <ul>
-//                     {todos.map(({ text }, index) => <li key={index}>{text}</li>)}
-//                 </ul>
-//             </div>
-//         );
-//     }
-// }
-
-// todos.push({ text: 'Learn Mobx' })
-
 class Store {
     devList = [
         { name: 'Jack', sp: 12 },
